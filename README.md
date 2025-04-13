@@ -35,17 +35,18 @@ python -m venv env
 # Activar entorno en Windows
 .\env\Scripts\activate
 
-# Activar entorno en Mac / Linux
-source env/bin/activate
 3. Instalar las dependencias
 bash
-
+Copiar
+Editar
 pip install -r requirements.txt
 4. Ejecutar las migraciones de Alembic
 bash
-
+Copiar
+Editar
 alembic upgrade head
 5. Levantar el servidor
 bash
-
+Copiar
+Editar
 uvicorn app.main:app --reload
