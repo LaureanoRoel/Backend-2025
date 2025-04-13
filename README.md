@@ -44,7 +44,11 @@ python -m venv env
 # En Mac / Linux
 source env/bin/activate
 
-** Crear y activar el entorno visual**
+**3. Instalar las dependencias**
 pip install -r requirements.txt
+
+**4. Ejecutar las migraciones de Alembic**
 alembic upgrade head
+
+**5. Levantar el servidor**
 uvicorn app.main:app --reload
