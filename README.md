@@ -1,6 +1,6 @@
 # 🚀 FastAPI - Primer Conexión
 
-👨‍🎓 **Alumno:** Elías Orihuela  
+👨‍🎓 **Alumno:** Laureano Roel
 📚 **Práctica de clase:** Primeros pasos con FastAPI, Alembic y SQLite
 
 ---
